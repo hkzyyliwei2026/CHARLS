@@ -16,11 +16,13 @@ Do not commit raw CHARLS files, extracted `.dta` files, or participant-level der
 
 - `01_build_sci_landmark_dataset.py`: builds the 2015 landmark cohort, hypertension management transition variables, sample-flow table, 5 x 5 transition matrix, missingness table, and event-year checks.
 - `02_run_sci_statistical_analysis.R`: runs the original SCI statistical analysis, including logistic models, modified Poisson models, absolute risks, MICE, alternative thresholds, IPCW, subgroup analyses, and spline analysis.
-- `05_bmc_rr_primary_reanalysis.R`: final BMC-oriented RR-primary analysis, including modified Poisson models, marginal risk estimates, prespecified clinical contrasts, survey/IPCW/death scenarios, Western-medicine-only sensitivity analysis, and software-version outputs.
+- `05_bmc_rr_primary_reanalysis.R`: final BMC-oriented RR-primary analysis, including modified Poisson models, marginal risk estimates, clinically motivated contrasts, survey/IPCW/death scenarios, Western-medicine-only sensitivity analysis, and software-version outputs.
 - `08_prior_cvd_history_sensitivity.R`, `10_outcome_heterogeneity_heart_stroke.R`, `15_ipcw_and_death_adjusted.R`: additional sensitivity and secondary analyses.
 - `tables/`: non-identifiable aggregate tables and model outputs.
 - `figures/`: final analysis figures.
 - `reproducibility_logs/`: logs from the main analysis runs.
+
+The files in `reproducibility_logs/` are unedited records of the original analysis runs. The participant-flow labels and starting counts were subsequently expanded in the manuscript figure to show the 17,705 to 13,965 linkage steps explicitly.
 
 ## Expected local data layout
 
@@ -85,4 +87,4 @@ The final software versions used for the submitted analysis are recorded in:
 
 ## Privacy and licensing note
 
-This repository is intended for analysis transparency only. It does not grant access to CHARLS data and does not change the CHARLS data-use terms.
+This repository is intended for analysis transparency only. It does not grant access to CHARLS data and does not change the CHARLS data-use terms. The analysis code is released under the MIT License; third-party CHARLS data remain subject to CHARLS data-use terms.
