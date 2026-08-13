@@ -1,0 +1,10 @@
+metric,n
+incident_cvd_events,467
+events_with_any_reported_diagnosis_year,466
+events_with_year_2015,5
+events_with_year_2016,127
+events_with_year_2017,212
+events_with_year_2018,118
+events_missing_valid_year_or_since-last-interview-only,1
+events_with_year_before_2015,4
+events_with_year_after_2018,0

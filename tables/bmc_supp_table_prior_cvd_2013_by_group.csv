@@ -1,0 +1,10 @@
+"transition_group","transition_group_label","n","linked_2013","prior_cvd_2013","prior_cvd_2013_pct","events","events_with_prior_cvd_2013"
+"persistent_nonhypertensive","Persistent non-hypertension",3616,3448,61,1.8,174,11
+"incident_hypertension","Incident hypertension",940,903,21,2.3,73,2
+"persistent_unaware_or_untreated","Persistent unawareness/no treatment",657,629,19,3,45,4
+"new_awareness_or_treatment_uncontrolled","New awareness/treatment without control",170,163,10,6.1,18,4
+"persistent_aware_or_treated_uncontrolled","Persistent awareness or treatment without control",456,436,19,4.4,66,1
+"gained_control","Gained control",298,285,9,3.2,29,1
+"persistent_controlled","Persistent control",170,165,8,4.8,15,0
+"control_loss","Loss of control",194,191,5,2.6,17,0
+"other_transition","Other transitions",474,457,16,3.5,30,3

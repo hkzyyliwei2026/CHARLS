@@ -1,0 +1,9 @@
+"analysis","measure","effect_95ci","p","n_model","events_model"
+"Complete-case fully adjusted logistic","OR","2.63 (1.89-3.65)","<0.001",6707,455
+"Modified Poisson with robust standard errors","RR","2.39 (1.78-3.23)","<0.001",6707,455
+"Multiple imputation by chained equations","OR","2.65 (1.92-3.64)","<0.001",NA,NA
+"Alternative hypertension threshold of 130/80 mm Hg","OR","2.87 (2.09-3.95)","<0.001",6707,455
+"Strict incident CVD definition restricted to 2016-2018","OR","2.62 (1.89-3.64)","<0.001",6706,454
+"PSU cluster-robust standard errors","OR","2.63 (1.92-3.59)","<0.001",6707,455
+"Survey-design model with baseline biomarker weight","OR","2.78 (1.91-4.04)","<0.001",6707,455
+"Inverse-probability-of-censoring weighting","OR","2.64 (1.91-3.64)","<0.001",6707,455

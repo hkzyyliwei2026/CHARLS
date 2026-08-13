@@ -1,0 +1,6 @@
+"scenario","reference_group","comparison_group","reference_n","reference_events","comparison_n","comparison_events","crude_rr"
+"Main analysis: participants without 2018 outcome excluded","persistent_nonhypertensive","persistent_aware_or_treated_uncontrolled",3616,174,456,66,3.01
+"Deaths counted as non-events; other missing outcomes excluded","persistent_nonhypertensive","persistent_aware_or_treated_uncontrolled",3723,174,491,66,2.88
+"Deaths counted as events; other missing outcomes excluded","persistent_nonhypertensive","persistent_aware_or_treated_uncontrolled",3723,281,491,101,2.73
+"All missing 2018 outcomes counted as non-events","persistent_nonhypertensive","persistent_aware_or_treated_uncontrolled",3927,174,523,66,2.85
+"All missing 2018 outcomes counted as events","persistent_nonhypertensive","persistent_aware_or_treated_uncontrolled",3927,485,523,133,2.06

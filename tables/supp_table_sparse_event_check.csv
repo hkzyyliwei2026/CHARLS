@@ -1,0 +1,10 @@
+"transition_group","n","cvd","heart","stroke","transition_group_label","cvd_sparse_flag","heart_sparse_flag","stroke_sparse_flag"
+"persistent_nonhypertensive",3616,174,129,50,"Persistent non-hypertensive",FALSE,FALSE,FALSE
+"incident_hypertension",940,73,52,23,"Incident hypertension",FALSE,FALSE,FALSE
+"persistent_unaware_or_untreated",657,45,26,21,"Persistent unaware/untreated hypertension",FALSE,FALSE,FALSE
+"new_awareness_or_treatment_uncontrolled",170,18,14,5,"New awareness/treatment but uncontrolled",FALSE,FALSE,TRUE
+"persistent_aware_or_treated_uncontrolled",456,66,36,32,"Persistent aware/treated but uncontrolled",FALSE,FALSE,FALSE
+"gained_control",298,29,25,8,"Gained control",FALSE,FALSE,TRUE
+"persistent_controlled",170,15,14,3,"Persistent controlled",FALSE,FALSE,TRUE
+"control_loss",194,17,13,5,"Control loss",FALSE,FALSE,TRUE
+"other_transition",474,30,21,10,"Other transitions",FALSE,FALSE,FALSE

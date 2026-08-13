@@ -1,0 +1,12 @@
+During startup - Warning message:
+Setting LC_CTYPE failed, using "C" 
+Fitting interaction subgroup model: sex 
+Fitting stratified subgroup model: sex male 
+Fitting stratified subgroup model: sex female 
+Fitting interaction subgroup model: age_group 
+Fitting stratified subgroup model: age_group 45-59 
+Fitting stratified subgroup model: age_group >=60 
+BMC RR-primary reanalysis complete.
+Main RR table: bmc_main_table2_poisson_rr_three_models.csv
+Global Wald test: bmc_global_wald_transition_group.csv
+Prespecified contrasts: bmc_supp_table_prespecified_clinical_contrasts.csv

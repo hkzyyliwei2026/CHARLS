@@ -1,0 +1,10 @@
+During startup - Warning message:
+Setting LC_CTYPE failed, using "C" 
+null device 
+          1 
+null device 
+          1 
+Final SCI reporting package generated.
+Main tables: main_table1_baseline_by_9_transition_groups.csv; main_table2_logistic_three_models.csv; main_table3_rr_absolute_risk.csv
+Core sensitivity summary: supp_table_core_exposure_sensitivity_summary.csv
+Explicit spline: figure3_cumulative_mean_sbp_restricted_cubic_spline.[png/pdf]

@@ -1,0 +1,17 @@
+item,value
+R version,R version 4.6.1 (2026-06-24)
+Platform,aarch64-apple-darwin24.6.0
+Running under,macOS Sequoia 15.3.1
+R package: sandwich,3.1.2
+R package: survey,4.5
+R package: mice,3.19.0
+R package: haven,2.5.5
+R package: MASS,7.3.65
+R package: splines,4.6.1
+R package: stats,4.6.1
+Python version,3.14.5
+Python package: pandas,2.3.3
+Python package: numpy,2.5.0
+Python package: matplotlib,3.11.0
+Python package: docx,0.8.11
+Python package: openpyxl,3.1.5

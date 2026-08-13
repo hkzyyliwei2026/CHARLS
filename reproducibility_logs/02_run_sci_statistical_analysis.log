@@ -1,0 +1,65 @@
+During startup - Warning message:
+Setting LC_CTYPE failed, using "C" 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+SCI statistical analysis complete
+Primary Model 3 ORs:
+                          Transition group Model N Events Model 3 OR (95% CI)
+                     Incident hypertension    6707    455    1.56 (1.17-2.08)
+ Persistent unaware/untreated hypertension    6707    455    1.34 (0.95-1.89)
+  New awareness/treatment but uncontrolled    6707    455    2.09 (1.25-3.52)
+ Persistent aware/treated but uncontrolled    6707    455    2.63 (1.89-3.65)
+                            Gained control    6707    455    1.75 (1.14-2.70)
+                     Persistent controlled    6707    455    1.57 (0.89-2.76)
+                              Control loss    6707    455    1.58 (0.93-2.70)
+                         Other transitions    6707    455    1.20 (0.80-1.82)
+      P BH-adjusted P
+  0.003         0.011
+  0.101         0.133
+  0.005         0.014
+ <0.001        <0.001
+  0.011         0.021
+  0.116         0.133
+  0.093         0.133
+  0.378         0.378
+
+Modified Poisson RR:
+                    transition_group_label      estimate_ci p_text
+                     Incident hypertension 1.52 (1.16-1.98)  0.002
+ Persistent unaware/untreated hypertension 1.32 (0.95-1.82)  0.097
+  New awareness/treatment but uncontrolled 1.98 (1.24-3.15)  0.004
+ Persistent aware/treated but uncontrolled 2.39 (1.78-3.23) <0.001
+                            Gained control 1.69 (1.13-2.52)  0.011
+                     Persistent controlled 1.53 (0.93-2.53)  0.097
+                              Control loss 1.54 (0.95-2.50)  0.082
+                         Other transitions 1.19 (0.82-1.75)  0.360
+
+Adjusted absolute risks and risk differences per 1000:
+                    transition_group_label adjusted_risk_pct
+               Persistent non-hypertensive          5.200182
+                     Incident hypertension          7.855422
+ Persistent unaware/untreated hypertension          6.822819
+  New awareness/treatment but uncontrolled         10.251786
+ Persistent aware/treated but uncontrolled         12.517656
+                            Gained control          8.750374
+                     Persistent controlled          7.914755
+                              Control loss          7.955620
+                         Other transitions          6.187037
+ risk_difference_per_1000
+                 0.000000
+                26.552399
+                16.226363
+                50.516034
+                73.174740
+                35.501915
+                27.145729
+                27.554373
+                 9.868546
+
+Multiple imputation method: mice_package_m20_maxit20 

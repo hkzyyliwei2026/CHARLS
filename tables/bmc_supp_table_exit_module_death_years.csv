@@ -1,0 +1,19 @@
+"transition_group","transition_group_label","death_year","n"
+"persistent_aware_or_treated_uncontrolled","Persistent aware/treated but uncontrolled",2015,1
+"persistent_nonhypertensive","Persistent non-hypertensive",2017,2
+"gained_control","Gained control",2018,1
+"incident_hypertension","Incident hypertension",2018,1
+"persistent_aware_or_treated_uncontrolled","Persistent aware/treated but uncontrolled",2018,2
+"persistent_nonhypertensive","Persistent non-hypertensive",2018,2
+"persistent_unaware_or_untreated","Persistent unaware/untreated hypertension",2018,1
+"control_loss","Control loss",2019,1
+"incident_hypertension","Incident hypertension",2019,1
+"other_transition","Other transitions",2019,1
+"persistent_controlled","Persistent controlled",2019,1
+"persistent_nonhypertensive","Persistent non-hypertensive",2019,5
+"persistent_unaware_or_untreated","Persistent unaware/untreated hypertension",2019,1
+"incident_hypertension","Incident hypertension",2020,1
+"other_transition","Other transitions",2020,2
+"persistent_aware_or_treated_uncontrolled","Persistent aware/treated but uncontrolled",2020,3
+"persistent_controlled","Persistent controlled",2020,1
+"persistent_nonhypertensive","Persistent non-hypertensive",2020,1

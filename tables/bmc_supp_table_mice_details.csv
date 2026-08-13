@@ -1,0 +1,7 @@
+"item","value"
+"Number of imputations","20"
+"Iterations","20"
+"Imputed variables","Missing baseline covariates: sex, hukou, BMI, current smoking, alcohol drinking in the past year, diabetes, and dyslipidemia."
+"Variables not imputed","The primary exposure transition group and incident CVD outcome were not imputed."
+"Variables included in imputation model","The imputation model included exposure group, incident CVD, age, sex, hukou, education, marital status, BMI, smoking, alcohol drinking, diabetes, dyslipidemia, 2011/2015 SBP and DBP, and heart disease and stroke outcomes."
+"Combination rule","Model estimates were pooled using Rubin's rules."

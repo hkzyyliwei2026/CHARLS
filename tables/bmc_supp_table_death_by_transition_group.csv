@@ -1,0 +1,10 @@
+"transition_group","transition_group_label","landmark_n","observed","lost","died","no_2018_status","roster_no_outcome","death_rate_pct"
+"control_loss","Control loss",218,194,24,13,11,0,5.96330275229358
+"gained_control","Gained control",326,298,28,13,14,1,3.98773006134969
+"incident_hypertension","Incident hypertension",1035,940,95,50,44,1,4.83091787439614
+"new_awareness_or_treatment_uncontrolled","New awareness/treatment but uncontrolled",189,170,19,11,8,0,5.82010582010582
+"other_transition","Other transitions",534,474,60,26,33,1,4.8689138576779
+"persistent_aware_or_treated_uncontrolled","Persistent aware/treated but uncontrolled",523,456,67,35,32,0,6.69216061185468
+"persistent_controlled","Persistent controlled",185,170,15,11,4,0,5.94594594594595
+"persistent_nonhypertensive","Persistent non-hypertensive",3927,3616,311,107,202,2,2.72472625413802
+"persistent_unaware_or_untreated","Persistent unaware/untreated hypertension",743,657,86,48,38,0,6.46029609690444

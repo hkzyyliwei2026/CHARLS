@@ -1,0 +1,52 @@
+SCI landmark dataset built
+                                                 step     n
+ 2011 demographic, health, and biomarker intersection 13965
+           Linked with 2015 health and biomarker data 10051
+                               Age >=45 years in 2011  9850
+                   No heart disease or stroke in 2011  8590
+Complete 2011 and 2015 hypertension management states  8438
+                        CVD-free at the 2015 landmark  7680
+                            Observed 2018 CVD outcome  6975
+
+Main transition groups
+                   transition_group_label    n  cvd_events  event_rate_pct  sparse_event_flag
+              Persistent non-hypertensive 3616       174.0        4.811947              False
+                    Incident hypertension  940        73.0        7.765957              False
+Persistent unaware/untreated hypertension  657        45.0        6.849315              False
+ New awareness/treatment but uncontrolled  170        18.0       10.588235              False
+Persistent aware/treated but uncontrolled  456        66.0       14.473684              False
+                           Gained control  298        29.0        9.731544              False
+                    Persistent controlled  170        15.0        8.823529              False
+                             Control loss  194        17.0        8.762887              False
+                        Other transitions  474        30.0        6.329114              False
+
+Event year quality
+                                                metric   n
+                                   incident_cvd_events 467
+               events_with_any_reported_diagnosis_year 466
+                                 events_with_year_2015   5
+                                 events_with_year_2016 127
+                                 events_with_year_2017 212
+                                 events_with_year_2018 118
+events_missing_valid_year_or_since-last-interview-only   1
+                          events_with_year_before_2015   4
+                           events_with_year_after_2018   0
+
+Missingness
+                 variable  n_total  n_missing  missing_pct
+                 age_2011     6975          0     0.000000
+                      sex     6975          7     0.100358
+                    hukou     6975          1     0.014337
+                education     6975          0     0.000000
+                  marital     6975          0     0.000000
+                 bmi_2011     6975         90     1.290323
+          current_smoking     6975          1     0.014337
+        alcohol_last_year     6975          1     0.014337
+                 diabetes     6975         73     1.046595
+             dyslipidemia     6975        151     2.164875
+                 sbp_2011     6975          0     0.000000
+                 dbp_2011     6975          0     0.000000
+                 sbp_2015     6975          0     0.000000
+                 dbp_2015     6975          0     0.000000
+baseline_biomarker_weight     6975          0     0.000000
+              cluster_psu     6975          0     0.000000

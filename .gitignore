@@ -1,0 +1,23 @@
+.DS_Store
+__pycache__/
+*.pyc
+
+# CHARLS individual-level data are not redistributed in this repository.
+data/
+raw/
+_extracted/
+_tmp_extract/
+*.dta
+*.DTA
+*.sav
+*.sas7bdat
+*.por
+*.rar
+*.zip
+
+# Local editor/runtime files
+.Rhistory
+.RData
+.Rproj.user/
+.venv/
+renv/library/
