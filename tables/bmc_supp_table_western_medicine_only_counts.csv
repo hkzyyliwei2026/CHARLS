@@ -1,10 +1,10 @@
-"transition_group","n","events"
-"persistent_nonhypertensive",3618,174
-"incident_hypertension",938,73
-"persistent_unaware_or_untreated",710,49
-"new_awareness_or_treatment_uncontrolled",155,16
-"persistent_aware_or_treated_uncontrolled",448,66
-"gained_control",287,29
-"persistent_controlled",152,12
-"control_loss",192,17
-"other_transition",475,31
+transition_group,transition_group_label,n,events
+persistent_nonhypertensive,Persistent non-hypertension,3618,174
+incident_hypertension,Incident hypertension,938,73
+persistent_unaware_or_untreated,Persistent unawareness/no treatment,710,49
+new_awareness_or_treatment_uncontrolled,New awareness/treatment without control,155,16
+persistent_aware_or_treated_uncontrolled,Persistent awareness or treatment without control,448,66
+gained_control,Gained control,287,29
+persistent_controlled,Persistent control,152,12
+control_loss,Loss of control,192,17
+other_transition,Other transitions,475,31
