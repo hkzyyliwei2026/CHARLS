@@ -404,7 +404,7 @@ write.csv(table3, file.path(table_dir, "bmc_main_table3_rr_absolute_risk.csv"), 
 global <- global_wald(fits$model3_full$fit, fits$model3_full$vc)
 write.csv(global, file.path(table_dir, "bmc_global_wald_transition_group.csv"), row.names = FALSE)
 
-# Prespecified clinical contrasts among hypertension states.
+# Clinically motivated contrasts among hypertension states.
 poisson_contrasts <- rbind(
   contrast_rr(fits$model3_full$fit, fits$model3_full$vc, "persistent_aware_or_treated_uncontrolled", "persistent_controlled", "Persistent awareness/treatment without control vs persistent controlled"),
   contrast_rr(fits$model3_full$fit, fits$model3_full$vc, "persistent_aware_or_treated_uncontrolled", "gained_control", "Persistent awareness/treatment without control vs gained control"),
@@ -428,7 +428,7 @@ contrasts <- merge(
   all.x = TRUE,
   sort = FALSE
 )
-write.csv(contrasts, file.path(table_dir, "bmc_supp_table_prespecified_clinical_contrasts.csv"), row.names = FALSE)
+write.csv(contrasts, file.path(table_dir, "bmc_supp_table_clinically_motivated_contrasts.csv"), row.names = FALSE)
 
 # 2015 landmark-covariate sensitivity model.
 df$age_2015_per10 <- (df$age_2011 + 4) / 10
@@ -730,4 +730,4 @@ write.csv(mice_details, file.path(table_dir, "bmc_supp_table_mice_details.csv"),
 cat("BMC RR-primary reanalysis complete.\n")
 cat("Main RR table: bmc_main_table2_poisson_rr_three_models.csv\n")
 cat("Global Wald test: bmc_global_wald_transition_group.csv\n")
-cat("Prespecified contrasts: bmc_supp_table_prespecified_clinical_contrasts.csv\n")
+cat("Clinically motivated contrasts: bmc_supp_table_clinically_motivated_contrasts.csv\n")
